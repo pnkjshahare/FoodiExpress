@@ -1,9 +1,12 @@
 import "./App.css";
+import Footer from "./component/Footer.component";
+import Header from "./component/Header.component";
 
 function App() {
   return (
     <div>
-      <h1>pankaj shahare</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
